@@ -1,0 +1,35 @@
+Name: cars
+
+id                              integer         MEDIUMINT       PRIMARY-KEY
+
+model                           string          VARCHAR(30)     NOTNULL
+
+car_body_type                   string          VARCHAR(30)     NULL
+
+brand                           string          VARCHAR(30)     NOTNULL
+
+production_year                 integer         TINYINT         NOTNULL
+
+number_of_owners                integer         TINYINT         NOTNULL
+
+engine_cc                       integer         MEDIUMINT       NULL
+
+gearbox_type                    string          VARCHAR(30)     NOTNULL
+
+car_weight                      integer         MEDIUMINT       NULL
+
+power_supply_type               string          VARCHAR(30)     NOTNULL
+
+location                        string          VARCHAR(30)     NOTNULL
+
+color                           string          VARCHAR(30)     NULL
+
+pollution_category              string          VARCHAR(10)     NULL
+
+travelled_distance_in_km        integer         MEDIUMINT       NULL
+
+check_up_info                   integer         TINYINT         NOTNULL
+
+optionals                       string          VARCHAR(255)    NULL
+
+description                     string          text(500)       NULL
